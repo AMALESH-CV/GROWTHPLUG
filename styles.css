@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #ff00ff; /* Pink banner background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-content-sec1 {
+    color: #ffffff; /* White text color */
+    font-weight: bold;
+}
+
+.right-content-sec1 {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-box-sec1 {
+    background-color: #00ff00; /* Green box background color */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contact-box-sec1 p {
+    margin: 0;
+}
+
+/* Existing CSS styles above */
+
+/* Existing CSS styles above */
+
+.white-banner-sec2 {
+    background-color: #ffffff; /* White banner background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section-sec2, .right-section-sec2 {
+    display: flex; /* Display text elements horizontally */
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.pink-text-sec2 {
+    color: #ff00ff; /* Pink text color */
+    margin: 0;
+    margin-right: 20px; /* Add spacing between text elements */
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+
+
+
+
+
+/* Existing CSS styles above */
+
+.background-section-sec3 {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.text-content-sec3 {
+    color: #000000;
+    font-size: 24px;
+}
+
+.bottom-text-sec3 {
+    display: flex;
+    justify-content: center;
+}
+
+.square-boxes-sec3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pink-background-sec3, .light-blue-background-sec3 {
+    border-radius: 10px; /* Rounded edges */
+    padding: 20px;
+    width: 150px; /* Square shape */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.pink-background:hover, .light-blue-background:hover {
+    background-color: white;
+}
+
+.left-box-sec3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.yellow-background-sec3 {
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px; /* Square shape */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.yellow-background:hover {
+    background-color: white;
+}
+
+/* Existing CSS styles above */
+
+.background-section-sec3 {
+    /* Your existing styles for the background section */
+}
+
+.text-content-sec3 {
+    /* Your existing styles for the text content */
+}
+
+
+
+
+
+.right-section-sec3 {
+    float: right; /* Float the right section to the right */
+    margin-top: 20px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    /* Add any additional styling for social media icons */
+}
+
+.social-media i {
+    margin: 5px 0;
+    font-size: 30px;
+    color: #000000; /* Icon color */
+}
+
+.accessibility {
+    /* Your existing styles for the accessibility section */
+}
+
+.accessibility i {
+    font-size: 30px;
+    color: #000000; /* Icon color */
+}
+
+
+
+/* Existing CSS styles above */
+
+.content-section-sec4 {
+    text-align: center;
+    padding: 20px;
+}
+
+.left-content-sec4 {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.right-content-sec4 {
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.yellow-text-sec4 {
+    color: #FFFF00; /* Yellow text color */
+    font-size: 16px; /* Small font size */
+}
+
+.blue-text-sec4 {
+    color: #87CEEB; /* Sky blue text color */
+    font-size: 24px; /* Bigger font size */
+}
+
+.pink-text-sec4 {
+    color: #FFC0CB; /* Pink text color */
+    font-size: 24px; /* Same font size as the previous */
+}
+
+/* Add any additional styling for the right-content paragraph as needed */
+.right-content-sec4 p {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Existing CSS styles above */
+.numbered-section-sec5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-content-sec5 {
+    display: flex;
+    align-items: center;
+}
+
+.number-box-sec5 {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50% 0 0 50%; /* Split rounded edge on the left */
+    margin-right: 10px; /* Add spacing between boxes */
+    background-color: #ff00ff; /* Pink background color */
+}
+
+.number-box-sec5 p {
+    color: #ffffff; /* White text color */
+    font-weight: bold;
+    margin: 0;
+}
+
+.orange-bg-sec5 {
+    background-color: #ffa500; /* Orange background color */
+}
+
+.green-bg-sec5 {
+    background-color: #00ff00; /* Green background color */
+}
+
+.right-content-sec5 {
+    display: flex;
+    align-items: center;
+}
+
+.pink-box-sec5 {
+    background-color: #ff00ff; /* Pink background color */
+    padding: 10px;
+    border-radius: 5px; /* Rounded box edges */
+    color: #ffffff; /* White text color */
+    font-weight: bold;
+    margin: 0;
+} 
