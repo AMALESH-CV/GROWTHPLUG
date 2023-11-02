@@ -73,12 +73,11 @@ body {
 
 
 /* Existing CSS styles above */
-
 .background-section-sec3 {
     position: relative;
     background-image: url('https://silversmiles.com/wp-content/uploads/2023/05/Dr.-Meagan-1024x555.jpg');
-    background-size: contain; /* Fit the entire image within the container */
-    background-position: center center; /* Center the image both horizontally and vertically */
+    background-size: contain;
+    background-position: center center;
     text-align: center;
     padding: 100px 0;
     height: 100%;
@@ -92,17 +91,13 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.345);
+    background-color: rgba(0, 0, 0, 0.258);
 }
 
-
-
-
-
-.text-content-sec3 {
+/* .text-content-sec3 {
     color: #16dd5b;
     font-size: 24px;
-}
+} */
 
 .bottom-text-sec3 {
     display: flex;
@@ -116,11 +111,11 @@ body {
     margin: 20px 0;
 }
 
-.pink-background-sec3, .light-blue-background-sec3 {
-    border-radius: 10px; /* Rounded edges */
+.pink-background-sec3, .light-blue-background-sec3, .yellow-background-sec3 {
+    border-radius: 10px;
     padding: 20px;
-    width: 150px; /* Square shape */
-    box-shadow: 0 10px 20px rgba(204, 20, 20, 0.9);
+    width: 150px;
+    box-shadow: 0 10px 20px rgba(247, 224, 224, 0.518);
     margin: 0 10px;
     display: flex;
     flex-direction: column;
@@ -129,75 +124,86 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.pink-background:hover, .light-blue-background:hover {
+.pink-background-sec3:hover, .light-blue-background-sec3:hover, .yellow-background-sec3:hover {
     background-color: white;
 }
 
-.left-box-sec3 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+/* Styling the pink box */
+.pink-background-sec3 {
+    background-color: #e5138b; /* Pink background color */
+    width: 320px; /* Increase width to make it wider */
+    height: 20px; 
 }
 
+.pink-background-sec3 p {
+    color: #ffffff; /* White text color */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    vertical-align: middle; /* Align the text vertically in the middle */
+}
+
+/* Styling the blue box */
+.light-blue-background-sec3 {
+    background-color: #0572ba; /* Light blue background color */
+    width: 320px; /* Increase width to make it wider */
+    height: 20px; 
+}
+
+
+.light-blue-background-sec3 p {
+    color: #ffffff; /* White text color */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    vertical-align: middle; /* Align the text vertically in the middle */
+}
+
+/* Styling the yellow box */
 .yellow-background-sec3 {
-    padding: 20px;
-    border-radius: 10px;
-    width: 150px; /* Square shape */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f5ee83; /* Yellow background color */
+    width: 160px; /* Increase width to make it wider */
+    height: 20px;
+    margin-left: 97px;
+    margin-top: 10px; /* Add margin to move the box down */
+}
+
+.yellow-background-sec3 p {
+    color: #ffffff; /* White text color */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    vertical-align: middle; /* Align the text vertically in the middle */
+}
+
+
+.social-media-icons {
     display: flex;
-    align-items: center;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
+    flex-direction: column; /* Display icons vertically */
+    justify-content: flex-end; /* Align icons to the bottom */
+    align-items: flex-end; /* Align icons to the right */
+    margin-top: 20px; /* Add top margin for spacing */
+    
 }
 
-.yellow-background:hover {
-    background-color: white;
-}
-
-/* Existing CSS styles above */
-
-.background-section-sec3 {
-    /* Your existing styles for the background section */
-}
-
-.text-content-sec3 {
-    /* Your existing styles for the text content */
+.social-media-icons i {
+    font-size: 28px; /* Increase icon size */
+    margin-bottom: 10px; /* Increase spacing between icons */
 }
 
 
 
 
 
-.right-section-sec3 {
-    float: right; /* Float the right section to the right */
-    margin-top: 20px;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: column;
-    /* Add any additional styling for social media icons */
-}
-
-.social-media i {
-    margin: 5px 0;
-    font-size: 30px;
-    color: #000000; /* Icon color */
-}
-
-.accessibility {
-    /* Your existing styles for the accessibility section */
-}
-
-.accessibility i {
-    font-size: 30px;
-    color: #000000; /* Icon color */
-}
 
 
 
-/* Existing CSS styles above */
+
+
+
+
+
+
+
+
+
 
 .content-section-sec4 {
     text-align: center;
