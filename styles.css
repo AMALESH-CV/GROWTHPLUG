@@ -5,21 +5,25 @@ body {
 }
 
 .header {
-    background-color: #ff00ff; /* Pink banner background color */
+    background-color: #e5138b; /* Pink banner background color */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .left-content-sec1 {
     color: #ffffff; /* White text color */
     font-weight: bold;
+    margin-left: 28px;
+    font-size: 13px;
 }
 
 .right-content-sec1 {
     display: flex;
     gap: 10px;
+    font-size: 13px;
+    margin-right: 13px;
 }
 
 .contact-box-sec1 {
@@ -47,6 +51,8 @@ body {
 .left-section-sec2, .right-section-sec2 {
     display: flex; /* Display text elements horizontally */
     align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .logo {
@@ -54,10 +60,10 @@ body {
 }
 
 .pink-text-sec2 {
-    color: #ff00ff; /* Pink text color */
+    color: #e5138b; /* Pink text color */
     margin: 0;
-    margin-right: 20px; /* Add spacing between text elements */
-    font-size: 18px; /* Increase font size */
+    margin-right: 77px; /* Add spacing between text elements */
+    font-size: 20px; /* Increase font size */
     font-weight: bold; /* Make the text bold */
 }
 
@@ -69,21 +75,39 @@ body {
 /* Existing CSS styles above */
 
 .background-section-sec3 {
-    background-image: url('https://silversmiles.com/wp-content/uploads/2023/05/Dr.-Meagan-300x163.jpg');
-    background-size: cover;
-    background-position: bottom center;
+    position: relative;
+    background-image: url('https://silversmiles.com/wp-content/uploads/2023/05/Dr.-Meagan-1024x555.jpg');
+    background-size: contain; /* Fit the entire image within the container */
+    background-position: center center; /* Center the image both horizontally and vertically */
     text-align: center;
     padding: 100px 0;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
+.background-section-sec3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.345);
+}
+
+
+
+
+
 .text-content-sec3 {
-    color: #000000;
+    color: #16dd5b;
     font-size: 24px;
 }
 
 .bottom-text-sec3 {
     display: flex;
     justify-content: center;
+    font-size: 100px;
 }
 
 .square-boxes-sec3 {
@@ -96,7 +120,7 @@ body {
     border-radius: 10px; /* Rounded edges */
     padding: 20px;
     width: 150px; /* Square shape */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(204, 20, 20, 0.9);
     margin: 0 10px;
     display: flex;
     flex-direction: column;
@@ -308,7 +332,7 @@ body {
 
 .practice-section {
     text-align: center;
-    margin: 0 20px; /* Add left and right margin spaces */
+    margin: 0 120px; /* Add left and right margin spaces */
 }
 
 h2 {
@@ -316,30 +340,230 @@ h2 {
     margin-bottom: 20px; /* Space below the heading */
 }
 
-.image-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px; /* Space between rows */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
+    grid-gap: 20px; /* Space between images */
 }
 
 .image-container-2 {
-    flex: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
 }
 
 .image-container-2 img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
-.image-container-2:nth-child(1),
-.image-container-2:nth-child(6) {
-    flex: 2; /* First and last images in the row */
+/* .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  } */
+
+
+
+
+
+
+
+
+
+
+  .profile-section {
+    background-color: #ccc; /* Grey background color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.image-container-2:nth-child(2),
-.image-container-2:nth-child(4) {
-    flex: 3; /* Second and fourth images in the row */
+.profile-frame {
+    width: 150px; /* Adjust the size of the frame */
+    height: 200px; /* Adjust the size of the frame */
+    background-color: #ff8000; /* Orange background for the frame */
+    border: 5px solid #ff8000; /* Orange border for the frame */
+    border-radius: 10px; /* Rounded corners for the frame */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.profile-frame img {
+    max-width: 100%; /* Ensure the image fits inside the frame */
+    max-height: 100%;
+}
+
+.orange-text {
+    color: #fff; /* White text color */
+    font-size: 18px; /* Adjust the font size */
+}
+
+.about-section {
+    flex: 1; /* Take remaining space */
+    padding: 20px;
+}
+
+.about-section h2 {
+    font-size: 24px; /* Adjust the font size */
+}
+
+.about-section p {
+    font-size: 16px; /* Adjust the font size for the about text */
+}
+
+
+
+
+
+
+
+
+
+
+
+.text-section-sec6 {
+    text-align: center;
+    padding: 20px;
+    background-color: #eb0788;
+}
+
+.pink-bg-sec6 {
+    
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px; /* Rounded edges */
+}
+
+.sky-blue-text-sec6 {
+    color: #87CEEB; /* Sky blue text color */
+    font-size: 14px;
+    margin: 0;
+}
+
+.white-text-sec6 {
+    color: #ffffff; /* White text color */
+    font-size: 16px;
+    margin: 0;
+}
+
+.yellow-text-sec6 {
+    color: #ffff00; /* Yellow text color */
+    font-size: 16px;
+}
+
+.pink-rectangle-sec6 {
+    background-color: #ff00ff; /* Pink background color */
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px; /* More rounded edges */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.instagram-section {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns with equal width */
+    grid-template-rows: 2; /* 2 rows */
+    grid-gap: 20px; /* Space between images */
+}
+
+.instagram-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.instagram-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.review-section {
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.review-bg h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.review-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.review-text {
+    font-size: 18px;
+}
+
+.review-name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+img {
+    width: 100px; /* Adjust the size as needed */
+    margin-top: 20px;
+}
+
 
 
