@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #e5138b; /* Pink banner background color */
+    background-color: #e5138b; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .left-content-sec1 {
-    color: #ffffff; /* White text color */
+    color: #ffffff; 
     font-weight: bold;
     margin-left: 28px;
     font-size: 13px;
@@ -28,7 +28,7 @@ body {
 }
 
 .contact-box-sec1 {
-    background-color: #00ff00; /* Green box background color */
+    background-color: #00ff00; 
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -37,12 +37,10 @@ body {
     margin: 0;
 }
 
-/* Existing CSS styles above */
 
-/* Existing CSS styles above */
 
 .white-banner-sec2 {
-    background-color: #ffffff; /* White banner background color */
+    background-color: #ffffff; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +48,7 @@ body {
 }
 
 .left-section-sec2, .right-section-sec2 {
-    display: flex; /* Display text elements horizontally */
+    display: flex; 
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
@@ -61,19 +59,15 @@ body {
 }
 
 .pink-text-sec2 {
-    color: #e5138b; /* Pink text color */
+    color: #e5138b; 
     margin: 0;
-    margin-right: 77px; /* Add spacing between text elements */
-    font-size: 20px; /* Increase font size */
-    font-weight: bold; /* Make the text bold */
+    margin-right: 77px; 
+    font-size: 20px; 
+    font-weight: bold;
 }
 
 
 
-
-
-
-/* Existing CSS styles above */
 .background-section-sec3 {
     position: relative;
     background-image: url('https://silversmiles.com/wp-content/uploads/2023/05/Dr.-Meagan-1024x555.jpg');
@@ -95,10 +89,7 @@ body {
     background-color: rgba(0, 0, 0, 0.258);
 }
 
-/* .text-content-sec3 {
-    color: #16dd5b;
-    font-size: 24px;
-} */
+
 
 .bottom-text-sec3 {
     display: flex;
@@ -129,140 +120,128 @@ body {
     background-color: white;
 }
 
-/* Styling the pink box */
+
 .pink-background-sec3 {
-    background-color: #e5138b; /* Pink background color */
-    width: 320px; /* Increase width to make it wider */
+    background-color: #e5138b; 
+    width: 320px; 
     height: 20px; 
 }
 
 .pink-background-sec3 p {
-    color: #ffffff; /* White text color */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
-    vertical-align: middle; /* Align the text vertically in the middle */
+    color: #ffffff; 
+    margin: 0;
+    padding: 0; 
+    vertical-align: middle; 
 }
 
-/* Styling the blue box */
+
 .light-blue-background-sec3 {
-    background-color: #0572ba; /* Light blue background color */
-    width: 320px; /* Increase width to make it wider */
+    background-color: #0572ba; 
+    width: 320px; 
     height: 20px; 
 }
 
 
 .light-blue-background-sec3 p {
-    color: #ffffff; /* White text color */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
-    vertical-align: middle; /* Align the text vertically in the middle */
+    color: #ffffff; 
+    margin: 0; 
+    padding: 0; 
+    vertical-align: middle; 
 }
 
-/* Styling the yellow box */
+
 .yellow-background-sec3 {
-    background-color: #f5ee83; /* Yellow background color */
-    width: 160px; /* Increase width to make it wider */
+    background-color: #f5ee83; 
+    width: 160px; 
     height: 20px; 
    
 }
 
 .yellow-background-sec3 p {
-    color: #ffffff; /* White text color */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
-    vertical-align: middle; /* Align the text vertically in the middle */
+    color: #ffffff; 
+    margin: 0; 
+    padding: 0; 
+    vertical-align: middle; 
 }
 
 .social-media-icons {
     display: flex;
-    flex-direction: column; /* Display icons vertically */
-    justify-content: flex-end; /* Align icons to the bottom */
-    align-items: flex-end; /* Align icons to the right */
-    margin-top: 20px; /* Add top margin for spacing */
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    margin-top: 20px; 
     
 }
 
 .social-media-icons i {
-    font-size: 28px; /* Increase icon size */
-    margin-bottom: 10px; /* Increase spacing between icons */
+    font-size: 28px; 
+    margin-bottom: 10px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 .content-section-sec4 {
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left-content-sec4 {
-    float: left;
-    width: 50%;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
-    
 }
 
 .right-content-sec4 {
-    float: right;
-    width: 50%;
-    text-align: left;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .yellow-text-sec4 {
-    color: #f5ee83; /* Yellow text color */
-    font-size: 14px; /* Small font size */
+    color: #f5ee83;
+    font-size: 18px;
 }
 
 .blue-text-sec4 {
-    color: #0572ba; /* Sky blue text color */
-    font-size: 30px; /* Bigger font size */
+    color: #0572ba;
+    font-size: 35px;
 }
 
 .pink-text-sec4 {
-    color: #e5138b; /* Pink text color */
-    font-size: 30px; /* Same font size as the previous */
+    color: #e5138b;
+    font-size: 35px;
 }
 
-/* Add any additional styling for the right-content paragraph as needed */
 .right-content-sec4 p {
     font-size: 23px;
+    max-width: 80%; 
+    margin: 0 auto; 
 }
 
 
 
-
-
-
-
-
-
-
-/* Existing CSS styles above */
 .numbered-section-sec5 {
     display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 20px;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
 }
 
 .left-content-sec5 {
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.numbered-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.numbered-item p {
+    font-size: 20px;
 }
 
 .number-box-sec5 {
@@ -270,174 +249,180 @@ body {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    border-radius: 50% 0 0 50%; /* Split rounded edge on the left */
-    margin-right: 10px; /* Add spacing between boxes */
-    background-color: #ff00ff; /* Pink background color */
+    border-radius: 50% 0 0 50%;
+    margin-right: 10px;
+    background-color: #e5138b;
 }
 
 .number-box-sec5 p {
-    color: #ffffff; /* White text color */
+    color: #ffffff;
     font-weight: bold;
     margin: 0;
 }
 
 .orange-bg-sec5 {
-    background-color: #ffa500; /* Orange background color */
+    background-color: #ffa500;
 }
 
 .green-bg-sec5 {
-    background-color: #00ff00; /* Green background color */
+    background-color: #00ff00;
 }
 
 .right-content-sec5 {
-    flex-grow: 1;
-    margin-left: auto;
-  
+    display: flex;
+    flex-direction: column;
 }
 
 .pink-box-sec5 {
-    background-color: #ff00ff; /* Pink background color */
+     background-color: #e5138b; 
     padding: 10px;
-    border-radius: 5px; /* Rounded box edges */
-    color: #ffffff; /* White text color */
+    border-radius: 20px; 
+    color: #ffffff; 
     font-weight: bold;
     margin: 0;
-} 
-
-
-
-
-
+    margin-right: 200px; 
+}
 
 
 
 
 .image-container {
     display: flex;
-    justify-content: space-between;
-    padding: 20px; /* Add spacing on the left and right */
+    justify-content: flex-start; 
+    padding: 20px; 
+    width: 100%;
+    overflow: hidden; 
+    position: relative; 
 }
 
 .image-container img {
-    flex: 1; /* Distribute equal width among images */
-    width: 30%; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; /* Rounded corners */
+    width: 30%; 
+    height: auto; 
+    border-radius: 15px;
+    position: relative; 
 }
 
-.image-container img {
-    flex: 1; /* Distribute equal width among images */
-    width: 30%; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; /* Rounded corners */
-    margin-right: 10px; /* Add a 10px gap between images */
+.image-container img:nth-child(1) {
+    margin-left: 0; 
+}
+
+.image-container img:nth-child(2) {
+    margin-left: 20px; 
+    top: -20px; 
+}
+
+.image-container img:nth-child(3) {
+    margin-left: 40px; 
+    top: -40px; 
 }
 
 
 
 
-
-
-.practice-section {
+.service-section {
     text-align: center;
-    margin: 0 120px; /* Add left and right margin spaces */
+    margin: 0 120px; 
 }
 
 h2 {
     font-size: 24px;
-    margin-bottom: 20px; /* Space below the heading */
+    margin-bottom: 20px; 
+    color: gold; 
 }
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-    grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
-    grid-gap: 20px; /* Space between images */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    position: relative; 
 }
 
 .image-container-2 {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px; /* Rounded corners */
-    overflow: hidden; /* Hide overflowing content */
+    width: 90%; 
+    height: 90%; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    position: relative; 
 }
 
 .image-container-2 img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    object-fit: cover; 
+    border-radius: 15px;
 }
 
-/* .image-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    text-align: center;
-    padding: 10px;
-  } */
+.image-text {
+    position: absolute; 
+    top: 50px; 
+    left: 10px; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 5px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+
+.image-container-2:nth-child(1) .image-text {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.image-container-2:nth-child(2) .image-text {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
 
 
 
 
-
-
-
-
-
-
-  .profile-section {
-    background-color: #ccc; /* Grey background color */
+.profile-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px;
-}
-
-.profile-frame {
-    width: 150px; /* Adjust the size of the frame */
-    height: 200px; /* Adjust the size of the frame */
-    background-color: #ff8000; /* Orange background for the frame */
-    border: 5px solid #ff8000; /* Orange border for the frame */
-    border-radius: 10px; /* Rounded corners for the frame */
-    text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.profile-frame img {
-    max-width: 100%; /* Ensure the image fits inside the frame */
-    max-height: 100%;
+.profile-image-container {
+    position: relative;
 }
 
-.orange-text {
-    color: #fff; /* White text color */
-    font-size: 18px; /* Adjust the font size */
+.profile-image-rectangular {
+    background-color: orange;
+    text-align: center;
+    border: 2px solid orange;
+    padding: 10px;
 }
 
-.about-section {
-    flex: 1; /* Take remaining space */
+.profile-image-rectangular img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.name-bg {
+    background-color: orange;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.profile-name {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.profile-info {
+    flex-grow: 1;
     padding: 20px;
 }
-
-.about-section h2 {
-    font-size: 24px; /* Adjust the font size */
-}
-
-.about-section p {
-    font-size: 16px; /* Adjust the font size for the about text */
-}
-
-
-
-
-
-
-
 
 
 
@@ -445,51 +430,41 @@ h2 {
 .text-section-sec6 {
     text-align: center;
     padding: 20px;
-    background-color: #eb0788;
+    background-color: #e5138b;
 }
 
 .pink-bg-sec6 {
     
     display: inline-block;
     padding: 10px;
-    border-radius: 5px; /* Rounded edges */
+    border-radius: 5px;
 }
 
 .sky-blue-text-sec6 {
-    color: #87CEEB; /* Sky blue text color */
-    font-size: 14px;
+    color: #69b5e7; 
+    font-size: 18px;
     margin: 0;
 }
 
 .white-text-sec6 {
-    color: #ffffff; /* White text color */
-    font-size: 16px;
+    color: #ffffff; 
+    font-size: 25px;
     margin: 0;
 }
 
+
+
 .yellow-text-sec6 {
-    color: #ffff00; /* Yellow text color */
-    font-size: 16px;
+    color: #ffff00; 
+    font-size: 25px;
 }
 
 .pink-rectangle-sec6 {
-    background-color: #ff00ff; /* Pink background color */
+    background-color: #d840d3; 
     display: inline-block;
     padding: 10px;
-    border-radius: 10px; /* More rounded edges */
+    border-radius: 10px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -505,36 +480,23 @@ h2 {
 
 .instagram-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns with equal width */
-    grid-template-rows: 2; /* 2 rows */
-    grid-gap: 20px; /* Space between images */
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: 2; 
+    grid-gap: 20px; 
 }
 
 .instagram-image {
     width: 100%;
     height: 100%;
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Hide overflowing content */
+    border-radius: 10px; 
+    overflow: hidden; 
 }
 
 .instagram-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    object-fit: cover; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -552,7 +514,7 @@ h2 {
 }
 
 .review-content {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    background: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
     max-width: 500px;
@@ -568,10 +530,7 @@ h2 {
     margin-top: 10px;
 }
 
-img {
-    width: 100px; /* Adjust the size as needed */
-    margin-top: 20px;
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
-
-
-
